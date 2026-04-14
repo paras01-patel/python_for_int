@@ -123,3 +123,28 @@
 
 # # Input bhejna
 # greet_user("Priya")
+
+
+
+
+
+
+# 3. With Arguments and Return Value (Input bhi hai, aur output bhi wapas milta hai)
+# Yeh sabse zyada use hone wala type hai. Isme hum function ko data dete hain, wo andar calculation karta hai, aur return keyword ka use karke final result humein wapas deta hai taaki hum use kisi variable me store kar sakein.
+
+# Python
+# def multiply_numbers(a, b):
+#     result = a * b
+#     return result  # Result wapas bhej raha hai
+
+# # Wapas aaye hue result ko variable me save karna
+# ans = multiply_numbers(5, 4)
+# print("Calculation ka answer:", ans)  # Output: 20
+# 4. Lambda Functions / Anonymous Functions (Ek line ka chota function)
+# Aise functions jinka koi naam nahi hota (anonymous), aur unhein poore def syntax ki jagah sirf ek hi line mein likh diya jaata hai. Inme lambda keyword ka use hota hai.
+
+# Python
+# # Ek line me square (varg) nikalne ka function
+# find_square = lambda x: x * x
+
+# print(find_square(6))  # Output: 36
