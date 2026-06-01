@@ -169,3 +169,43 @@
 # A B C 
 # A B C D 
 # A B C D E
+
+
+
+
+# Yahan agle 5 aur naye patterns hain jo aapke nested loops aur logic ko aur strong karenge:
+
+# Pattern 11: Right-Aligned Star Triangle (Right side jhuka hua triangle) 📐
+# Isme stars ko right side align karne ke liye pehle spaces print kiye jaate hain:
+
+# Python
+# print("--- Pattern 11 ---")
+# for i in range(1, 6):
+#     print(" " * (5 - i) + "*" * i)
+# Output:
+
+# Plaintext
+#     *
+#    **
+#   ***
+#  ****
+# *****
+# Pattern 12: Binary Number Triangle (0 aur 1 ka triangle) 💻
+# Isme row aur column ke sum ke hisaab se 1 ya 0 print hota hai:
+
+# Python
+# print("--- Pattern 12 ---")
+# for i in range(1, 5):
+#     for j in range(1, i + 1):
+#         if (i + j) % 2 == 0:
+#             print("1", end=" ")
+#         else:
+#             print("0", end=" ")
+#     print()
+# Output:
+
+# Plaintext
+# 1 
+# 0 1 
+# 1 0 1 
+# 0 1 0 1
