@@ -33,3 +33,30 @@
 # numbers.insert(1, 15)  # Index 1 par 15 daal do
 
 # print(numbers)  # Output: [10, 15, 20, 30]
+
+
+
+
+
+
+# C. .remove() ya .pop() — Item hatana
+# Python
+# items = ["Pen", "Pencil", "Eraser"]
+# items.remove("Pencil")  # Naam se hatana
+# print(items)
+# D. len() — List me kitne items hain pata karna
+# Python
+# my_list = [10, 20, 30, 40]
+# print("Total items:", len(my_list))  # Output: 4
+# 💡 Ek Chota sa Practical Code
+# Python
+# # Daily weight loss progress track karne ki list
+# weight_records = [84.5, 84.0, 83.8, 83.5]
+
+# # Naya weight aakhri me jodna
+# weight_records.append(83.2)
+
+# print("Aapka weight record:", weight_records)
+# print("Pehla recorded weight:", weight_records[0])
+# print("Latest recorded weight:", weight_records[-1])
+# print("Total kitne records hain:", len(weight_records))
