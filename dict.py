@@ -25,3 +25,40 @@
 # # Key ke zariye value nikalna
 # print(user_profile["name"])  # Output: Priya
 # print(user_profile["goal"])  # Output: Weight Loss
+
+
+
+
+# 3. Dictionary mein Data Jodna ya Badalna (Modify karna)
+# Aap kisi nayi key ko add kar sakte hain ya purani value ko update kar sakte hain:
+
+# Python
+# student = {
+#     "name": "Rahul",
+#     "score": 85
+# }
+
+# # 1. Nayi key-value jodna
+# student["city"] = "Indore"
+
+# # 2. Purani value ko update karna
+# student["score"] = 90
+
+# print(student)
+# # Output: {'name': 'Rahul', 'score': 90, 'city': 'Indore'}
+# 4. Dictionary ke Kuch Useful Methods
+# .keys(): Sirf saari keys nikalne ke liye.
+
+# .values(): Sirf saari values nikalne ke liye.
+
+# .items(): Saare keys aur values ke pairs nikalne ke liye.
+
+# Python
+# car = {
+#     "brand": "Hyundai",
+#     "model": "i20",
+#     "year": 2022
+# }
+
+# print(car.keys())    # Output: dict_keys(['brand', 'model', 'year'])
+# print(car.values())  # Output: dict_values(['Hyundai', 'i20', 2022])
