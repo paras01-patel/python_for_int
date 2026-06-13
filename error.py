@@ -18,3 +18,25 @@
 # except ValueError:
 #     # Agar user ne number ki jagah koi text likh diya
 #     print("Galti! Kripya sirf number enter karein.")
+
+
+
+
+# 2. try-except-else-finally (Complete Structure)
+# try: Main code jisme error aa sakti hai.
+
+# except: Agar error aaye toh kya karna hai.
+
+# else: Agar error nahi aayi, toh yeh chalega.
+
+# finally: Yeh block hamesha chalega (chahe error aaye ya na aaye).
+
+# Python
+# try:
+#     vajan = float(input("Apna weight (kg me) enter karein: "))
+# except ValueError:
+#     print("Aapne galat input diya hai!")
+# else:
+#     print("Bahut acchi baat hai! Aapka weight enter ho gaya:", vajan)
+# finally:
+#     print("--- Program Complete ---")
