@@ -75,3 +75,39 @@
 #   * * * 
 #  * * * * 
 # * * * * *
+
+
+
+
+# Pattern 6: Inverted Number Triangle (Ulta Number Triangle) 🔄
+# Har row mein numbers kam hote jaate hain:
+
+# Python
+# print("--- Pattern 6 ---")
+# for i in range(5, 0, -1):
+#     for j in range(1, i + 1):
+#         print(j, end=" ")
+#     print()
+# Output:
+
+# Plaintext
+# 1 2 3 4 5 
+# 1 2 3 4 
+# 1 2 3 
+# 1 2 
+# 1 
+# Pattern 7: Repeated Number Row Triangle (Same number repeat hona) 🔢
+# Jis row ka number hota hai, wahi utni baar print hota hai:
+
+# Python
+# print("--- Pattern 7 ---")
+# for i in range(1, 6):
+#     print(str(i) * i)
+# Output:
+
+# Plaintext
+# 1
+# 22
+# 333
+# 4444
+# 55555
