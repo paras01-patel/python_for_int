@@ -111,3 +111,61 @@
 # 333
 # 4444
 # 55555
+
+
+
+# Pattern 8: Floyd's Triangle (Continuous Numbers) 📈
+# Isme numbers lagataar aage badhte hain, row ke khatam hone par bhi rukte nahi:
+
+# Python
+# print("--- Pattern 8 ---")
+# num = 1
+# for i in range(1, 5):
+#     for j in range(1, i + 1):
+#         print(num, end=" ")
+#         num += 1
+#     print()
+# Output:
+
+# Plaintext
+# 1 
+# 2 3 
+# 4 5 6 
+# 7 8 9 10 
+# Pattern 9: Diamond Pattern (Heere jaisa aakar) 💎
+# Pyramid aur ulta pyramid ko mila kar ek khoobsurat diamond banta hai:
+
+# Python
+# print("--- Pattern 9 ---")
+# # Upar ka hissa (Pyramid)
+# for i in range(1, 4):
+#     print(" " * (3 - i) + "* " * i)
+
+# # Neeche ka hissa (Ulta Pyramid)
+# for i in range(2, 0, -1):
+#     print(" " * (3 - i) + "* " * i)
+# Output:
+
+# Plaintext
+#   * 
+#  * * 
+# * * * 
+#  * * 
+#   * 
+# Pattern 10: Alphabet Triangle (A, B, C characters ka triangle) 🔤
+# Numbers ki jagah English alphabets (chr() function ki madad se) print karna:
+
+# Python
+# print("--- Pattern 10 ---")
+# for i in range(1, 6):
+#     for j in range(65, 65 + i):  # 65 ASCII value hai 'A' ki
+#         print(chr(j), end=" ")
+#     print()
+# Output:
+
+# Plaintext
+# A 
+# A B 
+# A B C 
+# A B C D 
+# A B C D E
