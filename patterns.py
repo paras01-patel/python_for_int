@@ -209,3 +209,57 @@
 # 0 1 
 # 1 0 1 
 # 0 1 0 1
+
+
+
+# Pattern 13: Hollow Square Pattern (Khali dibba) 🔲
+# Isme sirf border par stars hote hain aur beech mein khali jagah (space) hoti hai:
+
+# Python
+# print("--- Pattern 13 ---")
+# for i in range(4):
+#     for j in range(4):
+#         # Agar pehli row, aakhri row, pehla column ya aakhri column ho
+#         if i == 0 or i == 3 or j == 0 or j == 3:
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
+# Output:
+
+# Plaintext
+# * * * * 
+# *     * 
+# *     * 
+# * * * * 
+# Pattern 14: Repeated Row Number Pattern (Har row me same number) 🔢
+# Har row me wahi number print hota hai jo row ka number hota hai:
+
+# Python
+# print("--- Pattern 14 ---")
+# for i in range(1, 5):
+#     for j in range(i):
+#         print(i, end=" ")
+#     print()
+# Output:
+
+# Plaintext
+# 1 
+# 2 2 
+# 3 3 3 
+# 4 4 4 4 
+# Pattern 15: Inverted Right-Aligned Triangle (Ulta right-aligned triangle) 📉
+# Stars dheere-dheere kam hote hain aur right side aligned rehte hain:
+
+# Python
+# print("--- Pattern 15 ---")
+# for i in range(5, 0, -1):
+#     print(" " * (5 - i) + "*" * i)
+# Output:
+
+# Plaintext
+# *****
+#  ****
+#   ***
+#    **
+#     *
