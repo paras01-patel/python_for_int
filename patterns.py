@@ -263,3 +263,49 @@
 #   ***
 #    **
 #     *
+
+
+
+# Pattern 16: X-Star Pattern (Cross ya X ka aakar) ✖️
+# Isme diagonal lines par stars print hote hain:
+
+# Python
+# print("--- Pattern 16 ---")
+# n = 5
+# for i in range(n):
+#     for j in range(n):
+#         if j == i or j == (n - 1 - i):
+#             print("*", end=" ")
+#         else:
+#             print("  ", end=" ")
+#     print()
+# Output:
+
+# Plaintext
+# *       * 
+#   *   *   
+#     *     
+#   *   *   
+# *       * 
+# Pattern 17: Palindrome Number Triangle (Center numbers aage aur peeche chalte hain) 🔄
+# Isme numbers pehle badhte hain aur fir wapas ghante hain:
+
+# Python
+# print("--- Pattern 17 ---")
+# for i in range(1, 5):
+#     # Spaces dena
+#     print("  " * (4 - i), end="")
+#     # Badhte hue numbers
+#     for j in range(1, i + 1):
+#         print(j, end=" ")
+#     # Ghatte hue numbers
+#     for j in range(i - 1, 0, -1):
+#         print(j, end=" ")
+#     print()
+# Output:
+
+# Plaintext
+#       1 
+#     1 2 1 
+#   1 2 3 2 1 
+# 1 2 3 4 3 2 1
