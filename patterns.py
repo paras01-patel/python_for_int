@@ -309,3 +309,30 @@
 #     1 2 1 
 #   1 2 3 2 1 
 # 1 2 3 4 3 2 1
+
+
+
+# Pattern 18: Plus (+) Sign Pattern ➕
+# Isme beech ki row aur column mein stars milkar plus ka sign banate hain:
+
+# Python
+# print("--- Pattern 18 ---")
+# n = 5
+# mid = n // 2
+# for i in range(n):
+#     for j in range(n):
+#         if i == mid or j == mid:
+#             print("*", end=" ")
+#         else:
+#             print("  ", end=" ")
+#     print()
+# Output:
+
+# Plaintext
+#     *     
+#     *     
+# * * * * * 
+#     *     
+#     *
+
+
