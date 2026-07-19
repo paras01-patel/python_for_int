@@ -336,3 +336,21 @@
 #     *
 
 
+# Pattern 19: Consecutive Alphabet Triangle (A, B, C, D... lagataar aage badhna) 🔤
+# Isme alphabets har row ke sath aage badhte jaate hain (reset nahi hote):
+
+# Python
+# print("--- Pattern 19 ---")
+# val = 65  # 'A' ki ASCII value
+# for i in range(1, 5):
+#     for j in range(i):
+#         print(chr(val), end=" ")
+#         val += 1
+#     print()
+# Output:
+
+# Plaintext
+# A 
+# B C 
+# D E F 
+# G H I J
