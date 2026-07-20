@@ -354,3 +354,27 @@
 # B C 
 # D E F 
 # G H I J
+
+
+
+
+# Pattern 20: Hollow Inverted Triangle (Khali ulta triangle) 🔺
+# Isme ulta triangle hota hai par andar ki jagah khali (space) hoti hai:
+
+# Python
+# print("--- Pattern 20 ---")
+# for i in range(5, 0, -1):
+#     for j in range(1, i + 1):
+#         if i == 5 or j == 1 or j == i:
+#             print("*", end=" ")
+#         else:
+#             print("  ", end=" ")
+#     print()
+# Output:
+
+# Plaintext
+# * * * * * 
+# *     *   
+# *   *     
+# * *       
+# *
