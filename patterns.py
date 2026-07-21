@@ -378,3 +378,51 @@
 # *   *     
 # * *       
 # *
+
+
+
+
+
+#Pattern 21: Hourglass Pattern (Retreat and Expand / Reti ka Ghanta) ⏳
+# Isme pehle triangle ulta hota hai aur fir seedha, jisse ghante jaisa aakar banta hai:
+
+# Python
+# print("--- Pattern 21 ---")
+# # Upar ka ulta hissa
+# for i in range(4, 0, -1):
+#     print(" " * (4 - i) + "* " * i)
+# # Neeche ka seedha hissa
+# for i in range(2, 5):
+#     print(" " * (4 - i) + "* " * i)
+# Output:
+
+# Plaintext
+# * * * * 
+#  * * * 
+#   * * 
+#    * 
+#   * * 
+#  * * * 
+# * * * * 
+# Pattern 22: Hollow Pyramid Pattern (Khali Pyramid) 🔺
+# Isme pyramid ki sirf outer boundary par stars hote hain aur beech ki jagah khali hoti hai:
+
+# Python
+# print("--- Pattern 22 ---")
+# n = 5
+# for i in range(1, n + 1):
+#     print(" " * (n - i), end="")
+#     for j in range(1, 2 * i):
+#         if j == 1 or j == 2 * i - 1 or i == n:
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+# Output:
+
+# Plaintext
+#     *
+#    * *
+#   *   *
+#  *     *
+# *********
