@@ -450,3 +450,26 @@
 #     *     
 #   *       
 # * * * * *
+
+
+
+# Pattern 24: Right Pascal's Triangle (Kite Shape / Patang ka Aakar) 🪁
+# Isme pehle stars badhte hain aur fir wapas ghante hain:
+
+# Python
+# print("--- Pattern 24 ---")
+# n = 4
+# for i in range(1, n + 1):
+#     print("*" * i)
+# for i in range(n - 1, 0, -1):
+#     print("*" * i)
+# Output:
+
+# Plaintext
+# *
+# **
+# ***
+# ****
+# ***
+# **
+# *
