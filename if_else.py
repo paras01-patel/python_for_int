@@ -40,3 +40,16 @@ if marks >= 40:
     print("Pass ho gaye! 🎉 (Aapke marks hain:", marks, ")")
 else:
     print("Fail / Re-appear ❌ (Aur mehnat ki zaroorat hai)")
+    
+    
+Question 5: Fitness Weight Category
+Python
+print("\n--- Q5: Fitness Weight Category ---")
+weight = 84  # Kg me weight
+
+if weight < 70:
+    print("Aapka weight normal range me hai.")
+elif weight <= 85:
+    print("Aapko thoda weight management aur cardio par dhyan dena chahiye. 👍")
+else:
+    print("Strict diet aur daily 10k steps ka target follow karein! 💧")
