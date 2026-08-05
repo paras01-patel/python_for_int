@@ -53,3 +53,32 @@ elif weight <= 85:
     print("Aapko thoda weight management aur cardio par dhyan dena chahiye. 👍")
 else:
     print("Strict diet aur daily 10k steps ka target follow karein! 💧")
+    
+    
+    
+Question 6: Positive, Negative, or Zero (Number check)
+Problem: Ek variable me number lijiye aur check kijiye ki wo Positive hai, Negative hai, ya Zero ke barabar hai.
+
+Python
+print("--- Q6: Positive/Negative/Zero ---")
+num = -8
+
+if num > 0:
+    print(num, "ek Positive number hai.")
+elif num < 0:
+    print(num, "ek Negative number hai.")
+else:
+    print("Yeh number Zero (0) hai.")
+Question 7: Leap Year Checker (Leap varsh ki jaanch)
+Problem: Ek saal (year) variable lijiye aur pata kijiye ki wo Leap Year hai ya nahi.
+
+Hint: Jo saal 4 se divide ho aur 100 se na ho, ya 400 se poora divide ho, wo leap year hota hai.
+
+Python
+print("\n--- Q7: Leap Year Checker ---")
+year = 2024
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, "ek Leap Year hai! 📅")
+else:
+    print(year, "Leap Year nahi hai.")
