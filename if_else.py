@@ -82,3 +82,20 @@ if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
     print(year, "ek Leap Year hai! 📅")
 else:
     print(year, "Leap Year nahi hai.  ")
+
+
+Question 8: Greatest of Three Numbers (Teen numbers me sabse bada kaun?)
+Problem: Teen alag-alag variables me numbers lijiye (jaise a = 25, b = 40, c = 30) aur pata lagaiye ki sabse bada number kaun sa hai.
+
+Python
+print("\n--- Q8: Greatest of Three Numbers ---")
+a = 25
+b = 40
+c = 30
+
+if a >= b and a >= c:
+    print("Sabse bada number hai:", a)
+elif b >= a and b >= c:
+    print("Sabse bada number hai:", b)
+else:
+    print("Sabse bada number hai:", c)
