@@ -99,3 +99,48 @@ elif b >= a and b >= c:
     print("Sabse bada number hai:", b)
 else:
     print("Sabse bada number hai:", c)
+    
+    
+Question 9: School Grade Calculator (Grades nikalna)
+Problem: Student ke score ke hisaab se grade print karein:
+
+Score >= 90: Grade A+
+
+Score >= 75: Grade A
+
+Score >= 60: Grade B
+
+Baaki sabke liye: Grade C
+
+Python
+print("\n--- Q9: School Grade Calculator ---")
+score = 82
+
+if score >= 90:
+    print("Grade: A+ 🎉")
+elif score >= 75:
+    print("Grade: A 👍")
+elif score >= 60:
+    print("Grade: B 🙂")
+else:
+    print("Grade: C (Aur mehnat karein) ⚠️")
+Question 10: Hydration Status Checker (Paani peene ka target)
+Problem: Aaj kitna paani piya (liters me) uska variable lijiye (jaise 3.0). Target 3.5L hai:
+
+Agar 3.5 ya usse zyada hai: "Target pura! 🎉"
+
+Agar 2.0 se 3.4 ke beech hai: "Thoda aur paani piyein! 💧"
+
+Agar 2.0 se kam hai: "Bahut kam paani piya, abhi glass piyein! ⚠️"
+
+Python
+print("\n--- Q10: Hydration Status Checker ---")
+water_drunk = 3.0
+target = 3.5
+
+if water_drunk >= target:
+    print("Shabaash! Aapka daily water target pura ho gaya. 🎉")
+elif water_drunk >= 2.0:
+    print("Accha hai, par target (3.5L) tak pahunchne ke liye thoda aur paani piyein! 💧")
+else:
+    print("Dhyan dein! Aapne bahut kam paani piya hai. Abhi 1-2 glass paani piyein.
