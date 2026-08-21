@@ -143,4 +143,40 @@ if water_drunk >= target:
 elif water_drunk >= 2.0:
     print("Accha hai, par target (3.5L) tak pahunchne ke liye thoda aur paani piyein! 💧")
 else:
-    print("Dhyan dein! Aapne bahut kam paani piya hai. Abhi 1-2 glass paani piyein.
+    print("Dhyan dein! Aapne bahut kam paani piya hai. Abhi 1-2 glass paani piyein.)
+          
+          
+Yahan agle 5 aur naye aur thode advanced if-else coding questions aur unke solutions diye gaye hain, jisme aapke fitness targets se juda hua ek sawaal bhi hai:
+
+Question 11: Shopping Discount Calculator (Chhoot nikalna)
+Problem: Total bill amount ke hisaab se discount calculate karein:
+
+Agar bill 5000 se zyada hai: 20% discount 🎉
+
+Agar bill 2000 se 5000 ke beech hai: 10% discount 👍
+
+Agar 2000 se kam hai: Koi discount nahi ❌
+
+Python
+print("--- Q11: Shopping Discount Calculator ---")
+bill_amount = 3500
+
+if bill_amount > 5000:
+    print("Badhai ho! Aapko 20% ka bada discount mila hai. 🎉")
+elif bill_amount >= 2000:
+    print("Accha hai! Aapko 10% ka discount mila hai. 👍")
+else:
+    print("Is bill par koi discount nahi hai. 2000 se upar ki kharidari par discount milega!")
+Question 12: Triangle Validity Checker (Triangle ban sakta hai ya nahi?)
+Problem: Teen sides (a, b, c) di gayi hain. Check karein ki kya ye ek valid triangle bana sakti hain.
+
+Hint: Kisi bhi do sides ka sum teesri side se bada hona chahiye (a + b > c aur b + c > a aur a + c > b).
+
+Python
+print("\n--- Q12: Triangle Validity Checker ---")
+a, b, c = 10, 12, 15
+
+if (a + b > c) and (b + c > a) and (a + c > b):
+    print("Yeh teeno sides milkar ek valid triangle bana sakti hain! 📐")
+else:
+    print("Yeh triangle nahi ban sakta. ❌")
