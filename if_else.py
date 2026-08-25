@@ -244,3 +244,54 @@ elif len(password) >= 5:
     print("Moderate password. Thoda aur lamba karein toh aur accha hoga. ⚠️")
 else:
     print("Weak password! Kripya kam se kam 8 characters ka password banayein. ❌")
+    
+Question 16: Age Group Category (Umra ke hisaab se category)
+Problem: User ki age ke hisaab se check karein ki wo kis group mein aati hai:
+
+Age < 13: Child (Bacha)
+
+Age 13 se 19: Teenager
+
+Age 20 se 59: Adult
+
+Age 60 ya usse zyada: Senior Citizen
+
+Python
+print("--- Q16: Age Group Category ---")
+age = 28
+
+if age < 13:
+    print("Category: Child")
+elif age <= 19:
+    print("Category: Teenager")
+elif age <= 59:
+    print("Category: Adult 👍")
+else:
+    print("Category: Senior Citizen 🧓")
+Question 17: BMI Calculator & Health Category (Aapke fitness plan se juda!)
+Problem: BMI (Body Mass Index) calculate karein. Formula: weight / (height_m * height_m).
+
+Agar BMI < 18.5: Underweight
+
+Agar BMI 18.5 se 24.9: Normal weight 🎉
+
+Agar BMI 25 se 29.9: Overweight ⚠️
+
+Agar BMI 30 ya zyada: Obese
+
+Python
+print("\n--- Q17: BMI Calculator ---")
+weight = 84  # kg mein
+height_m = 1.75  # meters mein (approx 5'9")
+
+bmi = weight / (height_m * height_m)
+print("Aapka BMI aaya hai:", round(bmi, 2))
+
+if bmi < 18.5:
+    print("Status: Underweight")
+elif bmi <= 24.9:
+    print("Status: Normal Weight 🎉")
+elif bmi <= 29.9:
+    print("Status: Overweight. Thoda cardio aur diet par dhyan dein! 👟")
+else:
+    print("Status: Obese. Strict fitness plan follow karne ki zaroorat hai! 💧")
