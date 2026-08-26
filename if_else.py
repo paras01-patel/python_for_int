@@ -295,3 +295,20 @@ elif bmi <= 29.9:
     print("Status: Overweight. Thoda cardio aur diet par dhyan dein! 👟")
 else:
     print("Status: Obese. Strict fitness plan follow karne ki zaroorat hai! 💧")
+    
+Question 18: Weekday vs Weekend Activity Planner
+Problem: Din ka naam (day = "Saturday") lijiye aur check kariye ki wo weekday hai ya weekend:
+
+Saturday ya Sunday: "Weekend hai! Relax karein ya long walk par jayein. 🌳"
+
+Baaki din: "Weekday hai! Office/Study aur workout ka schedule follow karein. 💻"
+
+Python
+print("\n--- Q18: Weekday vs Weekend Planner ---")
+day = "Saturday"
+
+if day == "Saturday" or day == "Sunday":
+    print(day, "-> Weekend hai! Relax karein ya long walk par jayein. 🌳")
+else:
+    print(day, "-> Weekday hai! Office/Study aur workout ka schedule follow karein. 💻")
+    
