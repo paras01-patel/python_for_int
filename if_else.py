@@ -312,3 +312,22 @@ if day == "Saturday" or day == "Sunday":
 else:
     print(day, "-> Weekday hai! Office/Study aur workout ka schedule follow karein. 💻")
     
+Question 19: Temperature Advisory (Mausam ke hisaab se salah)
+Problem: Temperature (temp = 32) ke hisaab se message print karein:
+
+Temp > 35: "Bahut garmi hai! Hydrated rahein aur khoob paani piyein. ☀️"
+
+Temp 20 se 35 ke beech: "Mausam bahut accha hai! Workout ke liye perfect. 🌤️"
+
+Temp < 20: "Thand hai! Garam kapde pehnein. 🧥"
+
+Python
+print("\n--- Q19: Temperature Advisory ---")
+temp = 32
+
+if temp > 35:
+    print("Bahut garmi hai! Hydrated rahein aur khoob paani piyein. ☀️")
+elif temp >= 20:
+    print("Mausam bahut accha hai! Walk aur workout ke liye perfect. 🌤️")
+else:
+    print("Thand hai! Garam kapde pehnein aur sehat ka dhyan rakhein. 🧥")
