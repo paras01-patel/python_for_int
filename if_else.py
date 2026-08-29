@@ -180,3 +180,24 @@ if (a + b > c) and (b + c > a) and (a + c > b):
     print("Yeh teeno sides milkar ek valid triangle bana sakti hain! 📐")
 else:
     print("Yeh triangle nahi ban sakta. ❌")
+    
+    
+Question 13: Daily Step Count Target (Aapke fitness plan se juda!)
+Problem: Aaj ke total steps ke liye variable lijiye (jaise 8500). Target 10,000 steps ka hai:
+
+Agar steps >= 10,000: "Awesome! Daily step goal achieved! 🎯"
+
+Agar steps >= 7,000: "Good job! Bas thodi si aur walking bachi hai. 👟"
+
+Agar steps < 7,000: "Shaam ko thoda aur walk karein, target pura karna hai! 🚶‍♀️"
+
+Python
+print("\n--- Q13: Daily Step Count Target ---")
+steps_walked = 8500
+
+if steps_walked >= 10000:
+    print("Awesome! Aapka 10k steps ka daily goal pura ho gaya! 🎯")
+elif steps_walked >= 7000:
+    print("Good job! Aap target ke bahut kareeb hain, thoda sa aur walk karein. 👟")
+else:
+    print("Aapke steps abhi kam hain. Chaliye, thodi der evening walk par chalte hain!")
