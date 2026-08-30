@@ -201,3 +201,24 @@ elif steps_walked >= 7000:
     print("Good job! Aap target ke bahut kareeb hain, thoda sa aur walk karein. 👟")
 else:
     print("Aapke steps abhi kam hain. Chaliye, thodi der evening walk par chalte hain!")
+    
+    
+Question 14: Simple Calculator (Basic Operations)
+Problem: Do numbers (num1 = 20, num2 = 5) aur ek operator string ('+', '-', '*', '/') lijiye aur if-elif use karke calculation kariye.
+
+Python
+print("\n--- Q14: Simple Calculator ---")
+num1 = 20
+num2 = 5
+operator = "*"
+
+if operator == "+":
+    print("Result:", num1 + num2)
+elif operator == "-":
+    print("Result:", num1 - num2)
+elif operator == "*":
+    print("Result:", num1 * num2)
+elif operator == "/":
+    print("Result:", num1 / num2)
+else:
+    print("Galat operator chuna hai! Kripya +, -, *, ya / use karein.")
