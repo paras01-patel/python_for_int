@@ -222,3 +222,25 @@ elif operator == "/":
     print("Result:", num1 / num2)
 else:
     print("Galat operator chuna hai! Kripya +, -, *, ya / use karein.")
+    
+    
+    
+Question 15: Password Strength Checker (Password kitna mazboot hai?)
+Problem: Ek password string ki lambai (len()) check karein:
+
+Agar lambai 8 ya usse zyada hai: "Strong password! 🔒"
+
+Agar lambai 5 se 7 ke beech hai: "Moderate password. Isko aur secure banayein. ⚠️"
+
+Agar lambai 5 se kam hai: "Weak password! Kam se kam 8 characters use karein. ❌"
+
+Python
+print("\n--- Q15: Password Strength Checker ---")
+password = "Priya@123"
+
+if len(password) >= 8:
+    print("Strong password! 🔒")
+elif len(password) >= 5:
+    print("Moderate password. Thoda aur lamba karein toh aur accha hoga. ⚠️")
+else:
+    print("Weak password! Kripya kam se kam 8 characters ka password banayein. ❌")
