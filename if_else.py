@@ -331,3 +331,26 @@ elif temp >= 20:
     print("Mausam bahut accha hai! Walk aur workout ke liye perfect. 🌤️")
 else:
     print("Thand hai! Garam kapde pehnein aur sehat ka dhyan rakhein. 🧥")
+
+
+Question 20: Job Eligibility Checker (Naukri ke liye yogyata)
+Problem: Age (24) aur Work Experience (2 years) check karein:
+
+Agar age >= 21 aur experience >= 2 years: "Aap is job ke liye fully eligible hain! 🎉"
+
+Agar age >= 21 par experience kam hai: "Aapki age theek hai, par thode aur experience ki zaroorat hai. ⚠️"
+
+Baaki sabke liye: "Aapki age abhi 21 se kam hai. ❌"
+
+Python
+print("\n--- Q20: Job Eligibility Checker ---")
+age = 24
+experience_years = 2
+
+if age >= 21:
+    if experience_years >= 2:
+        print("Badhai ho! Aap is job ke liye fully eligible hain! 🎉")
+    else:
+        print("Aapki age theek hai, par interview ke liye 2 saal ka experience chahiye. ⚠️")
+else:
+    print("Maaf kijiye, age kam se kam 21 saal honi chahiye. ❌")
