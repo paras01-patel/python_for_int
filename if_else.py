@@ -354,3 +354,32 @@ if age >= 21:
         print("Aapki age theek hai, par interview ke liye 2 saal ka experience chahiye. ⚠️")
 else:
     print("Maaf kijiye, age kam se kam 21 saal honi chahiye. ❌")
+    
+    
+Yahan agle 5 aur naye if-else coding questions aur unke solutions diye gaye hain, jo aapke real-life logic aur condition-checking skills ko aur bhi mazboot karenge:
+
+Question 21: Movie Ticket Pricing (Umar aur din ke hisaab se ticket)
+Problem: Ticket ka price check karein:
+
+Agar age < 12: Ticket price 150 rs.
+
+Agar age >= 60 (Senior citizen): Ticket price 200 rs.
+
+Baaki sabhi ke liye: 300 rs, par agar weekend (is_weekend = True) hai toh 50 rs extra lagenge.
+
+Python
+print("--- Q21: Movie Ticket Pricing ---")
+age = 25
+is_weekend = True
+
+if age < 12:
+    print("Bacho ke liye ticket price: 150 rs. 🎫")
+elif age >= 60:
+    print("Senior citizen discount ke sath ticket price: 200 rs. 🎫")
+else:
+    price = 300
+    if is_weekend:
+        price += 50
+        print("Weekend hone ki wajah se total price: ", price, "rs. (50 rs extra)")
+    else:
+        print("Standard weekday price: ", price, "rs.")
