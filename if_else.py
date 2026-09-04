@@ -383,3 +383,45 @@ else:
         print("Weekend hone ki wajah se total price: ", price, "rs. (50 rs extra)")
     else:
         print("Standard weekday price: ", price, "rs.")
+        
+Question 22: Electricity Bill Calculator (Bijli ka bill slab)
+Problem: Units consumed (units = 150) ke hisaab se bill nikalein:
+
+Pehle 100 units tak: 5 rs per unit.
+
+100 se 200 units ke beech: 8 rs per unit.
+
+200 units se zyada par: 10 rs per unit.
+
+Python
+print("\n--- Q22: Electricity Bill Calculator ---")
+units = 150
+
+if units <= 100:
+    bill = units * 5
+elif units <= 200:
+    # Pehle 100 ka 5 rs ke hisaab se + baaki ka 8 rs
+    bill = (100 * 5) + ((units - 100) * 8)
+else:
+    bill = (100 * 5) + (100 * 8) + ((units - 200) * 10)
+
+print("Aapka total electricity bill hai:", bill, "rs. 💡")
+Question 23: Protein Intake Tracker (Aapke fitness plan se juda!)
+Problem: Daily protein target 100 grams hai. User ka intake check karein:
+
+Agar intake >= 100g: "Bahut badhiya! Protein goal successfully achieved! 💪"
+
+Agar 70g se 99g ke beech: "Thoda aur paneer, tofu ya soya chunks lein target tak pahunchne ke liye. 🍳"
+
+Agar 70g se kam: "Protein intake bahut kam hai! Diet me protein sources add karein. ⚠️"
+
+Python
+print("\n--- Q23: Protein Intake Tracker ---")
+protein_eaten = 85  # grams mein
+
+if protein_eaten >= 100:
+    print("Bahut badhiya! Aapka daily protein goal achieve ho gaya! 💪")
+elif protein_eaten >= 70:
+    print("Accha chal raha hai! Bas thoda aur protein (jaise curd ya paneer) lein. 🍳")
+else:
+    print("Dhyan dein! Protein intake kam hai, muscle recovery ke liye ise badhayein. ⚠️")
