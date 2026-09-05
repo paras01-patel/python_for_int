@@ -425,3 +425,17 @@ elif protein_eaten >= 70:
     print("Accha chal raha hai! Bas thoda aur protein (jaise curd ya paneer) lein. 🍳")
 else:
     print("Dhyan dein! Protein intake kam hai, muscle recovery ke liye ise badhayein. ⚠️")
+    
+Question 24: Vowel or Consonant Checker (Swar ya Vyanjan)
+Problem: Ek single alphabet (char = 'e') lijiye aur check kariye ki wo Vowel (a, e, i, o, u) hai ya Consonant.
+
+Python
+print("\n--- Q24: Vowel or Consonant Checker ---")
+char = 'e'
+# Lowercase me convert karna taaki uppercase aaye toh bhi check ho sake
+char = char.lower()
+
+if char in ['a', 'e', 'i', 'o', 'u']:
+    print(char, "ek Vowel (Swar) hai! 🔤")
+else:
+    print(char, "ek Consonant (Vyanjan) hai.")
