@@ -439,3 +439,27 @@ if char in ['a', 'e', 'i', 'o', 'u']:
     print(char, "ek Vowel (Swar) hai! 🔤")
 else:
     print(char, "ek Consonant (Vyanjan) hai.")
+    
+    
+Question 25: ATM Withdrawal Simulator (Peesa nikalne ki machine)
+Problem: Account balance 10,000 rs hai. User kitne paise nikalna chahta hai (withdrawal = 4,000):
+
+Agar withdrawal balance se zyada hai: "Insufficient funds! Balance kam hai. ❌"
+
+Agar withdrawal 500 ke multiple me nahi hai: "Kripya 500 ke gunank (multiples) me amount dalein. ⚠️"
+
+Baaki sabhi cases me: "Transaction successful! Baaki balance batayein."
+
+Python
+print("\n--- Q25: ATM Withdrawal Simulator ---")
+balance = 10000
+withdrawal = 4500
+
+if withdrawal > balance:
+    print("Transaction Failed: Account me itne paise nahi hain! ❌")
+elif withdrawal % 500 != 0:
+    print("Transaction Failed: Kripya 500 ke multiples me amount enter karein. ⚠️")
+else:
+    remaining_balance = balance - withdrawal
+    print("Transaction Successful! Aapke account se", withdrawal, "rs nikal gaye.")
+    print("Bacha hua balance hai:", remaining_balance, "rs. 💳")
