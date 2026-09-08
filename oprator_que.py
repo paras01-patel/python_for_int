@@ -12,3 +12,30 @@ is_overspeeding = car_speed > speed_limit
 
 print("Gaadi ki speed:", car_speed)
 print("Kya overspeeding ho rahi hai?:", is_overspeeding)
+
+
+Question 3: Logical Operators (and & or)
+Problem: Ek club me entry ke liye age 18 ya usse zyada honi chahiye aur paas me ID card hona chahiye (has_id = True). Logical and operator ka use karke check karein ki entry milegi ya nahi.
+
+Python
+print("\n--- Q3: Club Entry using Logical Operators ---")
+age = 20
+has_id = True
+
+# 'and' tabhi True dega jab dono conditions sahi hongi
+can_enter = (age >= 18) and has_id
+
+print("Kya entry milti hai?:", can_enter)
+Question 4: Assignment Operators (+= aur -=)
+Problem: Aapke paas shuru me 5000 rs the. Pehle 1200 rs shopping me jode (+=) aur phir 500 rs ka bill pay karke kam kiye (-=). Final balance nikalein.
+
+Python
+print("\n--- Q4: Wallet Balance using Assignment Operators ---")
+wallet = 5000
+print("Shuru ka balance:", wallet)
+
+wallet += 1200  # Paise aana (Addition assignment)
+print("1200 milne ke baad:", wallet)
+
+wallet -= 500   # Paise kharch hona (Subtraction assignment)
+print("500 kharch karne ke baad final balance:", wallet, "rs 💳")
