@@ -38,4 +38,4 @@ wallet += 1200  # Paise aana (Addition assignment)
 print("1200 milne ke baad:", wallet)
 
 wallet -= 500   # Paise kharch hona (Subtraction assignment)
-print("500 kharch karne ke baad final balance:", wallet, "rs 💳")
+print("500 kharch karne ke baad final balance:", wallet, "rs")
