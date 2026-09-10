@@ -39,3 +39,18 @@ print("1200 milne ke baad:", wallet)
 
 wallet -= 500   # Paise kharch hona (Subtraction assignment)
 print("500 kharch karne ke baad final balance:", wallet, "rs")
+
+Question 5: Modulus Operator (% - Remainder nikalna)
+Problem: Aapke paas 45 chocolates hain aur unhein 4 doston me barabar baantna hai. Pata karein ki baantne ke baad kitni chocolates bachengi (Remainder).
+
+Python
+print("\n--- Q5: Chocolates Remainder using Modulus ---")
+total_chocolates = 45
+friends = 4
+
+# Modulus operator (%) remainder deta hai
+leftover_chocolates = total_chocolates % friends
+
+print("Kul chocolates:", total_chocolates)
+print("Dost:", friends)
+print("Baantne ke baad bachi hui chocolates (Remainder):", leftover_chocolates, "🍫")
