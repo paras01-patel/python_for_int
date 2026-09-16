@@ -54,3 +54,15 @@ leftover_chocolates = total_chocolates % friends
 print("Kul chocolates:", total_chocolates)
 print("Dost:", friends)
 print("Baantne ke baad bachi hui chocolates (Remainder):", leftover_chocolates, "🍫")
+
+Question 6: Floor Division Operator (//)
+Problem: Aapne aaj ke din mein total 14,250 steps chale hain. // (floor division) operator ka use karke pata lagayein ki aapne kitne poore thousands (hazaaron) ke milestones cross kiye hain.
+
+Python
+print("--- Q6: Floor Division Operator ---")
+steps = 14250
+# 1000 se divide karke integer quotient nikalna
+thousands_milestone = steps // 1000
+
+print("Total steps:", steps)
+print("Poore thousand milestones cross kiye:", thousands_milestone, "hazaar 👟")
