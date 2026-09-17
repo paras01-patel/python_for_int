@@ -66,3 +66,16 @@ thousands_milestone = steps // 1000
 
 print("Total steps:", steps)
 print("Poore thousand milestones cross kiye:", thousands_milestone, "hazaar 👟")
+
+
+Question 7: Membership Operator (in)
+Problem: Aapki allowed diet list hai: ["Oats", "Paneer", "Soya Chunks", "Fruits"]. Check karein ki kya "Paneer" is list mein maujood hai ya nahi (in operator ka use karke).
+
+Python
+print("\n--- Q7: Membership Operator (`in`) ---")
+diet_list = ["Oats", "Paneer", "Soya Chunks", "Fruits"]
+food_item = "Paneer"
+
+is_allowed = food_item in diet_list
+
+print("Kya diet list me", food_item, "shamil hai?:", is_allowed)
