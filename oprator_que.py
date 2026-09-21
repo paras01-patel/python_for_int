@@ -79,3 +79,17 @@ food_item = "Paneer"
 is_allowed = food_item in diet_list
 
 print("Kya diet list me", food_item, "shamil hai?:", is_allowed)
+
+
+Question 8: Compound Assignment Operators (*=)
+Problem: Aapka normal water target 3.0 liters hai. Lekin workout wale din target 1.5 times ho jata hai. *= operator ka use karke updated target calculate karein.
+
+Python
+print("\n--- Q8: Compound Assignment (`*=`) ---")
+water_target = 3.0
+print("Normal target:", water_target, "liters")
+
+# Workout day multiplier
+water_target *= 1.5  # Yeh same hai: water_target = water_target * 1.5
+
+print("Workout day par updated water target:", water_target, "liters 💧")
