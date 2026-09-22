@@ -90,6 +90,6 @@ water_target = 3.0
 print("Normal target:", water_target, "liters")
 
 # Workout day multiplier
-water_target *= 1.5  # Yeh same hai: water_target = water_target * 1.5
+water_target *= 1.5  
 
 print("Workout day par updated water target:", water_target, "liters 💧")
